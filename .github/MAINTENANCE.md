@@ -1,30 +1,30 @@
-# Maintenance Status for IOTstack
+# Maintenance Review for IOTstack
 
-## Status: ⚠️ UNMAINTAINED
+## Status: Review recommended
 
 **Last update:** August 1, 2020  
 **Time since last commit:** Over 4 years (2126+ days)  
-**Repository state:** Archived / Unmaintained
+**Repository state:** No recent activity detected in this fork
 
 ---
 
 ### What this means
 
-This repository is **no longer actively maintained**. The codebase has not received any updates, bug fixes, or security patches since 2020.
+This fork has not received updates, bug fixes, or security patches since 2020. Treat it as requiring review before use, especially for internet-facing or production deployments.
 
 ### Implications
 
-- **Security:** May contain unpatched vulnerabilities
-- **Compatibility:** Likely broken with current Docker/Docker Compose versions
-- **Dependencies:** Outdated service templates and configurations
-- **Support:** No active issue resolution or community support
+- **Security:** Dependencies and service images may need vulnerability review
+- **Compatibility:** Docker and Docker Compose behavior may have changed since the last update
+- **Dependencies:** Service templates and configurations may be outdated
+- **Support:** Issue handling and community activity should be checked before relying on this fork
 
 ### Recommendations
 
-1. **Do not use in production** without thorough security review
-2. **Consider forking** if you want to continue development
-3. **Check alternatives:**
-   - [Original SensorsIot/IOTstack repository](https://github.com/SensorsIot/IOTstack) (may have more recent activity)
+1. **Review before production use**, including dependencies, exposed services, and Docker Compose compatibility
+2. **Compare with upstream or active forks** before starting new deployments
+3. **Check related projects:**
+   - [Original SensorsIot/IOTstack repository](https://github.com/SensorsIot/IOTstack)
    - Look for community-maintained forks on GitHub
 
 ### For Maintainers

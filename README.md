@@ -1,13 +1,13 @@
 # IOT Stack
 
-> **⚠️ Maintenance Status: Unmaintained**
+> **Maintenance Status: Review recommended**
 > 
 > **This repository has not been updated since August 1, 2020 (over 4 years).**
-> The project is no longer actively maintained. The code may contain unaddressed security vulnerabilities, compatibility issues with current Docker versions, or broken dependencies.
+> This fork may need review before use with current Docker, Docker Compose, service images, and security expectations.
 > 
-> **Use at your own risk.**
+> **Review before production use.**
 > 
-> If you are looking for alternatives, consider forking the repository or checking the [original SensorsIot/IOTstack repository](https://github.com/SensorsIot/IOTstack) for potential continuation.
+> If you are looking for alternatives, compare this fork with the [original SensorsIot/IOTstack repository](https://github.com/SensorsIot/IOTstack) and other active forks.
 
 IOTstack is a builder for docker-compose to easily make and maintain IoT stacks on the Raspberry Pi.
 
